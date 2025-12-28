@@ -1,7 +1,7 @@
 import ImageViewer from "@/components/ImageViewer";
 import { StyleSheet, View } from "react-native";
 
-const PlaceholderImage = require("@/assets/images/icon.png");
+const PlaceholderImage = require("@/assets/images/background-image.png");
 
 export default function Index() {
   return (
@@ -17,9 +17,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#25292e",
-    alignItems: "center",
   },
   imageContainer: {
     flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
